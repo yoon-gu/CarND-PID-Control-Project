@@ -35,3 +35,5 @@ The final parameters are `(P, I, D) = (0.2, 0.0001, 8)`.
 ## Result
 
 My controller can keep the vehicle going without troubles during two laps. You can see the result at https://youtu.be/O-1aOHl11No.
+
+![GitHub Logo](screenshot.png)
