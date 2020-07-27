@@ -26,7 +26,7 @@ In this project, I want to obtaiin steering angle with `cte`(cross track error) 
 
 I set hyperparameters manually instead of using twiddle or other optimization techniques. I think this manual parameter setting is enough to acheive the goal of this project.
 
-I think there is no bias in the simulation, so I choose very small value for `I=(0.0001)`. To minimize osciliation, I increases the parameter `D` to `8.0`. With many trial and error, I found the optimal value for `P` to `0.2`.
+I think there is no bias in the simulation, so I choose very small value for `I=0.0001`. To minimize osciliation, I increases the parameter `D` to `8.0`. With many trial and error, I found the optimal value for `P` to `0.2`.
 
 In addition, the throttle value is also important. It is too big, then osciliation occurs very often. So decrease the value of throttle from `0.3` to `0.1`, instead of using another PID controller.
 
